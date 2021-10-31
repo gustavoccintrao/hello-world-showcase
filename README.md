@@ -2,7 +2,7 @@
 
 Just a simple hello world showcase made with React (yarn create react-app).
 
-![App Screenshot](https://imgur.com/a/JDn0Te6)
+![App Screenshot](/img/readme.png);
 
 ### How to contribute:
 
@@ -10,7 +10,7 @@ Just a simple hello world showcase made with React (yarn create react-app).
 2. Choose a country of your preference and download the icon from here: https://www.countryflags.com/icons-overview/ (Country > Icon > 32x32 png format);
 3. Rename the file to "countryname.png" and save the png in the public > img folder;
 4. Go to App.jsx and add the new country information following this template:
-
+<pre> <code>
 {
 name: "countryName",
 title: "countryName",
@@ -23,5 +23,7 @@ text: (
 </span>
 ),
 },
+</code>
+</pre>
 
 5. Commit your changes and create the pull request!
