@@ -38,6 +38,18 @@ export default function App() {
         </span>
       ),
     },
+    {
+      name: "kazakhstan",
+      title: "Kazakhstan",
+      img: "img/kazakhstan.png",
+      text: (
+        <span>
+          <span>console</span>
+          <span className="log">{".log"}</span>
+          <span className="hello-world">('Сәлем Әлем')</span>
+        </span>
+      ),
+    },
   ];
 
   return (
