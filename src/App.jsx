@@ -50,6 +50,18 @@ export default function App() {
         </span>
       ),
     },
+    {
+      name: "china",
+      title: "China",
+      img: "img/china.png",
+      text: (
+        <span>
+          <span>console</span>
+          <span className="log">{".log"}</span>
+          <span className="hello-world">('你好，世界')</span>
+        </span>
+      ),
+    },
   ];
 
   return (
