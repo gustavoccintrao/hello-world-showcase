@@ -1,10 +1,10 @@
 # hello-world-showcase
 
-Just a simple hello world showcase made with React (yarn create react-app).
+## Just a simple hello world showcase made with React (yarn create react-app).
 
-![App Screenshot](/img/readme.png);
+<img src="img/../public/img/readme.png"/>
 
-### How to contribute:
+## How to contribute:
 
 1. Fork this project and clone it using git/yarn.
 2. Choose a country of your preference and download the icon from here: https://www.countryflags.com/icons-overview/ (Country > Icon > 32x32 png format);
@@ -14,14 +14,8 @@ Just a simple hello world showcase made with React (yarn create react-app).
 {
 name: "countryName",
 title: "countryName",
-img: "img/contryname.png",
-text: (
-<span>
-<span>console</span>
-<span className="log">{".log"}</span>
-<span className="hello-world">('The translation of hello world from the selected country')</span>
-</span>
-),
+img: "img/countryname.png",
+text: (change the content of the last span to the country's respective hello world),
 },
 </code>
 </pre>
